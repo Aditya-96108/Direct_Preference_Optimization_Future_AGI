@@ -1,0 +1,28 @@
+# Ignore heavy model directories and files
+step_dpo_model/
+step_dpo_data/
+*.zip
+*.pth
+*.bin
+*.model
+
+# Ignore large data files
+*.h5
+*.parquet
+*.csv  # If your datasets are large; remove if small CSVs are needed
+
+# Ignore results if binary/large
+results/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Environments
+.venv/
+env/
+
+# Logs and temp
+*.log
+tmp/

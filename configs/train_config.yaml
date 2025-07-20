@@ -1,0 +1,10 @@
+#Lack of resources on my laptop please enure this on your side
+base_model: EleutherAI/gpt-neo-1.3B
+reward_model: microsoft/Phi-3-mini-4k-instruct
+dataset: gsm8k
+train_examples: 10  # Scale to 100+ here
+epochs: 1  # Increase to 3+
+rejection_samples: 3  # Increase to 10
+learning_rate: 5e-5
+beta: 0.1
+notes: Small scale for demo; scale for gains
